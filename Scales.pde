@@ -3,7 +3,6 @@ void setup() {
 }
 
 void draw() {
-  background(mouseX - (int) (Math.random () * 75),mouseY - (int) (Math.random() *75),(int) (Math.random () * 126) + 125 - mouseX - mouseY);
   for (int y = 0; y < 790; y += 45) {
     for (int x = 0; x < 790; x += 45) {
       diamondStarFish(x,y);
@@ -63,5 +62,6 @@ void diamondStarFish(int x, int y) {
   
   
 }
+
 
 
